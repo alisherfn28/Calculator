@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e4f4fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+ul,
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mortgage_calculator {
+  background-color: #fff;
+  margin-top: 200px;
+  width: 504px;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.paragraf_mort {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.paragraf_mort h2 {
+  font-weight: 700;
+  line-height: 30px;
+  color: #133041;
+}
+
+.paragraf_mort span {
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #4e6e7e;
+  cursor: pointer;
+}
+
+.mort_inputs {
+  padding-top: 40px;
+}
+
+.mort_inputs h4 {
+  font-weight: 500;
+  line-height: 24px;
+  color: #4e6e7e;
+  padding-bottom: 10px;
+}
+
+#amount {
+  border: none;
+  border: 1px solid grey;
+  padding: 10px;
+  width: 90%;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.amount {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.amount span {
+  border: none;
+  border: 1px solid grey;
+  padding: 5.5px 10px;
+  border-right: none;
+  color: #7c8286;
+  background-color: #e4f4fd;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.term {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10pp;
+}
+
+.paragrafs {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+
+.term input {
+  border: none;
+  border: 1px solid grey;
+  padding: 10px;
+  width: 70%;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.term span {
+  border: none;
+  border: 1px solid grey;
+  padding: 5.5px 10px;
+  border-left: none;
+  color: #7c8286;
+  background-color: #e4f4fd;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.type h4 {
+  font-weight: 500;
+  line-height: 24px;
+  color: #4e6e7e;
+  padding-top: 10px;
+}
+
+.repayment {
+  border: 1px solid #d8db2f;
+  padding: 10px;
+}
+
+.only {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.button button {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  padding: 16px 40px;
+  font-weight: 700;
+  line-height: 22.5px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  color: #133041;
+  background-color: #d8db2f;
+}
+
+.calculator {
+  display: flex;
+  align-items: center;
+}
+
+.results_conainer {
+  background-color: #133041;
+  flex-direction: column;
+  width: 504px;
+  padding: 20px;
+  padding-bottom: 80px;
+  margin-top: 200px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.results_conainer h2 {
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.results_calculator p {
+  font-weight: 500;
+  line-height: 24px;
+  color: #9abed5;
+  padding-bottom: 40px;
+}
+
+.block {
+  width: 424px;
+  background-color: #09171f;
+  border-top: 4px solid #d8db2f;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.block h3 {
+  font-weight: 500;
+  line-height: 24px;
+  color: #9abed5;
+  padding-top: 32px;
+}
+
+.block_top span {
+  font-weight: 600;
+  line-height: 70px;
+  font-size: 40px;
+  color: #d8db2f;
+}
+
+.block_bottom span {
+  font-weight: 600;
+  line-height: 30px;
+  color: #ffffff;
+  font-size: 20px;
+}
